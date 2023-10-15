@@ -69,8 +69,7 @@ function filter(arrayOfStrings) {
    // Luego retorna un nuevo arreglo con estos elementos.
    // Tu código:
    var solution = [];
-    var arrayElement = [];
-    solution = [];
+   var arrayElement = [];
     for (var i = 0 ; i < arrayOfStrings.length ; i++) {
         arrayElement = arrayOfStrings[i].split ('');
         if (arrayElement[0] === "a") {
