@@ -59,7 +59,7 @@ function capToFront(string) {
      }
    }
    newString = arrayStart.join("") + arrayEnd.join("");
-   return ("Solución: ", newString);
+   return newString;
 }
 
 function asAmirror(frase) {
